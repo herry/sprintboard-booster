@@ -17,6 +17,7 @@ SETUP GUIDE
 -----------
 
 1. Install Tampermonkey chrome extension:
+
        https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo
 
 2. Install Stylebot chrome extension:
