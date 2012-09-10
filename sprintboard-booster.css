@@ -1,0 +1,76 @@
+#float_bar .board_header {
+    color: #fff;
+    padding-left: 10px;
+}
+
+#float_bar .board_row {
+    background: #69008B;
+}
+
+.board {
+    background: transparent;
+    border-right: 1px solid #ccc;
+    height: 100%;
+    margin-right: -1px;
+}
+
+.board_content {
+    height: 100%;
+    position: static;
+}
+
+.board_header, .board_text .edit_text {
+    color: #000;
+}
+
+.board_row {
+}
+
+.board_row:nth-child(even) {
+    background: #f5f5f5;
+}
+
+.sticky {
+    display: inline-block;
+    float: none;
+    font-size: 12px;
+    height: auto;
+    overflow: visible;
+    padding: 5px;
+    width: 200px;
+}
+
+.sticky .avatar {
+    border: 1px solid #ddd;
+    float: left;
+    margin-right: 7px;
+}
+
+.sticky .avatar img {
+    display: block;
+}
+
+.sticky .owner {
+    background: rgba(0,0,0,0.8);
+    border-radius: 4px;
+    bottom: -7px;
+    color: #fff;
+    display: none;
+    padding: 2px 5px;
+}
+
+.sticky .title {
+    height: auto;
+}
+
+.sticky .title a {
+    color: #000;
+}
+
+.sticky:hover .owner {
+    display: block;
+}
+
+.unfocus {
+    opacity: 0.1;
+}
