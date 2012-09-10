@@ -1,7 +1,7 @@
 sprintboard-booster
 ===================
 
-= DESCRIPTION
+== DESCRIPTION
 
 Boost Y! Sprintboard:
 * Add user profile picture to the sticky notes
@@ -12,7 +12,7 @@ Boost Y! Sprintboard:
 
 Tested on Chrome, may work on other browsers with similar plugins.
 
-= INSTALLATION GUIDE
+== INSTALLATION GUIDE
 
 * Install Tampermonkey chrome extension:
   https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo
