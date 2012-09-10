@@ -1,7 +1,8 @@
 sprintboard-booster
 ===================
 
-== DESCRIPTION
+DESCRIPTION
+-----------
 
 Boost Y! Sprintboard:
 * Add user profile picture to the sticky notes
@@ -12,33 +13,34 @@ Boost Y! Sprintboard:
 
 Tested on Chrome, may work on other browsers with similar plugins.
 
-== INSTALLATION GUIDE
+SETUP GUIDE
+-----------
 
-* Install Tampermonkey chrome extension:
-  https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo
+1. Install Tampermonkey chrome extension:
+      https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo
 
-* Install Stylebot chrome extension:
-  https://chrome.google.com/webstore/detail/oiaejidbmkiecgbjeifoejpgmdaleoha
+2. Install Stylebot chrome extension:
+      https://chrome.google.com/webstore/detail/oiaejidbmkiecgbjeifoejpgmdaleoha
  
-* Download sprintboard-booster.css and sprintboard-booster.js from:
-  https://raw.github.com/jugend/sprintboard-booster/master/sprintboard-booster.js
-  https://raw.github.com/jugend/sprintboard-booster/master/sprintboard-booster.css
+3. Download sprintboard-booster.css and sprintboard-booster.js from:
+      https://raw.github.com/jugend/sprintboard-booster/master/sprintboard-booster.js
+      https://raw.github.com/jugend/sprintboard-booster/master/sprintboard-booster.css
   
-  Or you can also git clone from:
-  https://github.com/jugend/sprintboard-booster
+   Or you can also git clone from:
+      git clone https://github.com/jugend/sprintboard-booster
   
-* Create a new script in Temperboard with the content of sprintboard-booster.js
-  http://d.pr/i/nWHl
+4. Create a new script in Temperboard with the content of sprintboard-booster.js
+      http://d.pr/i/nWHl
   
-* Visit sprintboard page and configure the Stylebot style with the content of sprintboard-booster.css:
-  Mouse right click on the page > Click on Style Element, then click on Edit CSS button
-  http://d.pr/i/eRJX
+5. Visit sprintboard page and configure the Stylebot style with the content of sprintboard-booster.css:
+   Mouse right click on the page > Click on Style Element, then click on Edit CSS button
+      http://d.pr/i/eRJX
   
-* That's it, press F5 to refresh Sprintboard page and your sprintboard is boosted!!
+6. That's it, press F5 to refresh Sprintboard page and your sprintboard is boosted!!
 
-= REPOSITORY
+REPOSITORY
+----------
 
 https://github.com/jugend/sprintboard-booster
 
 Patch submissions are gladly welcome.
-
