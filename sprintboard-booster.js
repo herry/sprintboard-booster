@@ -29,6 +29,7 @@ YUI().use('base', 'node', 'node-style', function(Y) {
 
             this._loadUserAvatars();
             this._updateBoardRowsHeight();
+            this._showOnlyJAPITasks();
             
             this._isOn = true;
         },
@@ -89,6 +90,18 @@ YUI().use('base', 'node', 'node-style', function(Y) {
             });
         },
         
+        _showOnlyJAPITasks: function() {
+            var stickyNodes = Y.Node.all('.sticky'),
+                title;
+
+            stickyNodes.each(function(stickyNode) {
+                title = stickyNode.one('.title a').getContent();
+                if (!title.match(/JAPI/)) {
+                    stickyNode.remove();
+                }
+            });
+        },
+
         _reset: function() {
             this._isOn = false;
         },
