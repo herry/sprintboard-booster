@@ -23,9 +23,6 @@
     color: #000;
 }
 
-.board_row {
-}
-
 .board_row:nth-child(even) {
     background: #f5f5f5;
 }
