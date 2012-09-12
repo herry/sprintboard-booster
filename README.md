@@ -7,9 +7,9 @@ DESCRIPTION
 Boost Y! Sprintboard:
 * Add user profile picture to the sticky notes
 * Change sticky note size from square to rectangular
+* Hide empty story rows when a member is in focus
 * Quick sprint member switch panel (WIP)
 * Reduce the opacity of the unfocussed sticky notes when a member is in focus (WIP)
-* Hide empty story rows when a member is in focus (WIP)
 
 Tested on Chrome, may work on other browsers with similar plugins.
 
