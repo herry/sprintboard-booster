@@ -8,7 +8,7 @@
 // @copyright  2012, Herryanto Siatono
 // ==/UserScript==
 
-YUI().use('base', 'node', 'node-style', function(Y) {
+YUI().use('base', 'node', function(Y) {
     window.Y = Y;
     
     function SprintboardBooster() {
