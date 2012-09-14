@@ -31,11 +31,15 @@ SETUP GUIDE
    Or you can also git clone from:
     git clone https://github.com/jugend/sprintboard-booster
   
-4. Create a new script in Temperboard with the content of sprintboard-booster.js
+4. Create a new script in Tampermonkey with the content of sprintboard-booster.js
 
     http://d.pr/i/nWHl
+    
+5. Configure Update URL for the Sprint Booster script in Tampermonkey, so you can get the new update easily:
+    
+    https://raw.github.com/jugend/sprintboard-booster/master/sprintboard-booster.js
   
-5. Visit sprintboard page and configure the Stylebot style with the content of sprintboard-booster.css:
+5. Visit Sprint Board page and configure Stylebot page styling with the content of sprintboard-booster.css.
    Mouse right click on the page > Click on Style Element, then click on Edit CSS button
 
     http://d.pr/i/eRJX
