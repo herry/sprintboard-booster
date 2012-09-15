@@ -52,3 +52,7 @@ REPOSITORY
 https://github.com/jugend/sprintboard-booster
 
 Patch submissions are gladly welcome.
+
+CONTRIBUTORS
+------------
+* Thanks to Herry Leonard for the on focus change, hide empty row patch
