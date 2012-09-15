@@ -1,3 +1,7 @@
+0.3.1 2012-09-15
+----------------
+* Fix rows overlap issue
+
 0.3.0 2012-09-15
 ----------------
 * On sprint change, reset and reload sprintboard booster
