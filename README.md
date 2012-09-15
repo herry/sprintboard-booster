@@ -7,9 +7,9 @@ DESCRIPTION
 Boost Y! Sprintboard:
 * Add user profile picture to the sticky notes
 * Change sticky note size from square to rectangular
-* Hide empty story rows when a member is in focus
-* Reduce the opacity of the unfocussed sticky notes when a member is in focus
-* Quick sprint member dashboard cum switch panel (WIP)
+* Hide empty story rows when user is in focus
+* Reduce the opacity of the unfocussed sticky notes
+* Quick sprint members dashboard + the switch panel (WIP)
 
 Tested on Chrome, may work on other browsers with similar plugins.
 
@@ -35,7 +35,7 @@ SETUP GUIDE
 
     http://d.pr/i/nWHl
     
-5. Configure Update URL for the Sprint Booster script in Tampermonkey, so you can get the new update easily:
+5. Configure Update URL for the Sprint Booster script in Tampermonkey, so you can get new updates easily:
     
     https://raw.github.com/jugend/sprintboard-booster/master/sprintboard-booster.js
   
@@ -55,4 +55,4 @@ Patch submissions are gladly welcome.
 
 CONTRIBUTORS
 ------------
-* Thanks to Herry Leonard for the on focus change, hide empty row patch
+* Thanks to Herry Leonard for the on user focus patch to hide the empty rows
