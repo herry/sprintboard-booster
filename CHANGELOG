@@ -1,3 +1,7 @@
+0.3.3 2012-09-18
+----------------
+* Remove Stylebot dependency, load CSS through JS
+
 0.3.2 2012-09-15
 ----------------
 * Fix JS error with the onFocusChange
