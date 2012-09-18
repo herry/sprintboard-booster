@@ -1,3 +1,7 @@
+0.3.4 2012-09-18
+----------------
+* Change CSS URL from github to dropbox 
+
 0.3.3 2012-09-18
 ----------------
 * Remove Stylebot dependency, load CSS through JS
