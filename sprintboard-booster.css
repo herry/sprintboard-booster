@@ -71,3 +71,58 @@
 .unfocus {
     opacity: 0.1;
 }
+
+#toggle_summary {
+    position: absolute;
+    top: 32px;
+    left: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 1px;
+    text-decoration: none;
+}
+
+.avatar-summary-content {
+    position: relative;
+    left: 8px;
+    width: 95%;
+}
+
+.dimmed {
+    opacity: 0.3;
+}
+
+#avatar_clear {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 1px;
+}
+
+#avatar_summary .avatar-img-container {
+    cursor: pointer;
+    position: relative;
+}
+
+#avatar_summary .avatar-img-totaltask {
+    background-color: #eee;
+    padding: 1px;
+    color: #0f86ee;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 7px;
+    right: 3px;
+}
